@@ -4,13 +4,10 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from pprint import pprint
-# Views are the part of the cdoe we write which are responsible for doing the
-# work required on the API
 
 # These are function based views
 
-
-# csrf_exempt decorator for managing the policy for the check for the cross
+# csrf_exempt decorator is for managing the policy for the check for the cross
 # site request forgery
 @csrf_exempt
 # The api_view decorator manages the allowed HTTP methods for the API
